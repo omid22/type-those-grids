@@ -1,9 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: "Merri weather", serif;
+  font-style: normal;
   line-height: 1.5;
-  font-style: regular;
-  font-size: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -11,15 +10,23 @@ html {
 }
 
 body {
-  margin-bottom: 1.5rem;
+  margin: 0;
 }
 
 figure {
-  margin: 0rem;
+  margin: 0;
 }
 
 img {
   width: 100%;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 main {
@@ -28,7 +35,8 @@ main {
   grid-template-areas:
     "banner banner banner"
     "col1   col2   col3";
-    gap: .75rem;
+  gap: .75rem;
+  margin: 0;
 }
 
 .banner-img {
