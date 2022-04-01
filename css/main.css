@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Merri weather", serif;
+  font-family: Merriweather, serif;
   font-style: normal;
   line-height: 1.5;
 }
@@ -47,4 +47,8 @@ main {
   grid-area: banner;
   align-self: end;
   color: white;
+}
+
+dt {
+  font-style: italic;
 }
